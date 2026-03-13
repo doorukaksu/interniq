@@ -29,7 +29,8 @@ export default function Home() {
         </form>
 
         <p className="smallText">
-          Join the waitlist for beta access and launch updates.
+          By joining the waitlist you agree to receive updates about InternIQ.
+          See our <a href="/privacy">Privacy Policy</a>.
         </p>
       </section>
 
@@ -78,6 +79,11 @@ export default function Home() {
           Get Early Access
         </a>
       </section>
+      <footer className="footer">
+        <p>© {new Date().getFullYear()} InternIQ</p>
+        <a href="/privacy">Privacy Policy</a>
+      </footer>
     </main>
+    
   );
 }
