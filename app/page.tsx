@@ -3,7 +3,9 @@ export default function Home() {
     <main className="page">
       <section className="hero">
         <div className="badge">Early Access for Students</div>
-
+        <p className="subtext">
+          Join early access before beta spots fill up.
+        </p>
         <h1>
           Land competitive internships
           <span> smarter with AI</span>
@@ -54,7 +56,7 @@ export default function Home() {
         <div className="card">
           <h3>Interview Preparation</h3>
           <p>
-            Practise smarter with focused support for competitive internship
+            Practice smarter with focused support for competitive internship
             pathways.
           </p>
         </div>
